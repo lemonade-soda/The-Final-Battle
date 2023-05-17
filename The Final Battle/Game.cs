@@ -18,7 +18,7 @@ public class Game
     private static Character _skeleton = new Character("Skeleton", 5, SkeletonAttacks,
         Character.Controller.Computer, Character.Gear.Dagger);
     
-    private static Character _vinFletcher = new VinFletcher();
+    private Character _vinFletcher = new VinFletcher();
     
     private Party Heroes;
     
@@ -952,17 +952,29 @@ public class Game
 
     public void WantToPlay(string input)
     {
+        string PromptForName()
+        {
+            while(true)
+            {
+                Console.WriteLine("True programmer, what is your name?");
+                var userInput = Console.ReadLine();
+
+                if (!string.IsNullOrEmpty(userInput))
+                {
+                    return userInput;
+                }
+                Console.WriteLine("Try again.");
+            }
+        }
         input = input.ToLower();
         if (input == "yes" || input == "play")
         {
-            Console.WriteLine("True programmer, what is your name?");
-            var trueName = Console.ReadLine();
+            var trueName = PromptForName();
             InitializeHeroParty(trueName);
         }
         else
         {
-            Console.WriteLine("True programmer, what is your name?");
-            var trueName = Console.ReadLine();
+            var trueName = PromptForName();
             InitializeHeroParty(trueName, Character.Controller.Computer);
         }
     }
