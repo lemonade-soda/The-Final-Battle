@@ -17,9 +17,8 @@ public class Game
     
     private static Character _skeleton = new Character("Skeleton", 5, SkeletonAttacks,
         Character.Controller.Computer, Character.Gear.Dagger);
-
-    private static Character _vinFletcher = new Character("Vin Fletcher", 15, VinFletcherAttacks,
-        Character.Controller.Computer, Character.Gear.VinsBow);
+    
+    private static Character _vinFletcher = new VinFletcher();
     
     private Party Heroes;
     

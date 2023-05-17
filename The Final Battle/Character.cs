@@ -45,10 +45,7 @@ public class Character
             attackList.Add(Attack.Stab);
         }
     }
-    
 
-
-    
     public enum Attack
     {
         Punch,

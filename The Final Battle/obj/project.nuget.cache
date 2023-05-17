@@ -1,13 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "a5neq2BGW8n6Wjj+AX3glRZSCdhzgLseATfd1Nj0be+XLL/3CgkcsBpWvLc7arejKoQRJKUbqS1OEdrFs8B17w==",
+  "dgSpecHash": "p00sBTi9NP1e8fMsPM7KOmotSRyqoWoLzEBZIgVGsaFqrVYpfbJmpq3ahTkesHim/e108fZ8PvbYm3SlxxWy3g==",
   "success": true,
   "projectFilePath": "C:\\Users\\Dane\\RiderProjects\\The Final Battle\\The Final Battle\\The Final Battle.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Dane\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.12\\microsoft.netcore.app.ref.6.0.12.nupkg.sha512",
-    "C:\\Users\\Dane\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.12\\microsoft.windowsdesktop.app.ref.6.0.12.nupkg.sha512",
-    "C:\\Users\\Dane\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.12\\microsoft.aspnetcore.app.ref.6.0.12.nupkg.sha512",
-    "C:\\Users\\Dane\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.12\\microsoft.netcore.app.host.win-x64.6.0.12.nupkg.sha512"
+    "C:\\Users\\Dane\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.16\\microsoft.netcore.app.ref.6.0.16.nupkg.sha512",
+    "C:\\Users\\Dane\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.16\\microsoft.windowsdesktop.app.ref.6.0.16.nupkg.sha512",
+    "C:\\Users\\Dane\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.16\\microsoft.aspnetcore.app.ref.6.0.16.nupkg.sha512",
+    "C:\\Users\\Dane\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.16\\microsoft.netcore.app.host.win-x64.6.0.16.nupkg.sha512"
   ],
   "logs": []
 }
